@@ -2,4 +2,5 @@ language: cpp
 before_install:
  - sudo apt-get update
  - sudo apt-get install libgtest-dev
+ - sudo mv libgtest* /usr/lib/
 script: make test-travis
