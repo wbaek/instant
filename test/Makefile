@@ -6,7 +6,7 @@ INCLUDE += -isystem $(GTEST_PATH)/include/ \
 
 ifeq ($(TRAVIS), true)
 STATIC_LIBS = ../src/lib$(PRODUCT_NAME).a
-LIB_PATH += -L/usr/local/lib
+LIB_PATH += -L/usr/lib
 DYNAMIC_LIBS += -lgtest
 else
 STATIC_LIBS +=\
