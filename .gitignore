@@ -1,0 +1,15 @@
+bin/
+lib/
+dependency/
+*.[oae]
+*.o-*
+*.gcda
+*.gcno
+*.gcov
+*.swp
+.DS_Store
+documents/doxygen/html/
+documents/doxygen/latex/
+test/data/output/
+test/test_temporal_data/
+test/coverage.txt
