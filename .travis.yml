@@ -1,5 +1,5 @@
 language: cpp
 before_install:
  - sudo apt-get update
- - sudo apt-get install curl
-script: make test
+ - sudo apt-get install libgtest-dev
+script: make test-travis

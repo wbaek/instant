@@ -31,3 +31,6 @@ test: check
 check: test-prepare
 	make -j $(NUMBER_OF_BUILD_THREAD) -C test run
 
+test-travis:
+	make -j $(NUMBER_OF_BUILD_THREAD) -C test run
+
